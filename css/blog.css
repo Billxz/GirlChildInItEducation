@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+/* Blog content on the left */
+.blog-content {
+    /* width: 70%; */
+    margin-right: 20px;
+    /* background-color: #f9f9f9; */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Recent posts on the right */
+.recent-posts {
+    /* width: 25%; */
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recent-posts h2 {
+    margin-bottom: 15px;
+}
+
+.recent-posts ul {
+    list-style-type: none;
+}
+
+.recent-posts li {
+    margin-bottom: 10px;
+}
+
+.recent-posts a {
+    text-decoration: none;
+    color: #333;
+}
+
+.recent-posts a:hover {
+    text-decoration: underline;
+}
